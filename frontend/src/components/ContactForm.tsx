@@ -183,10 +183,10 @@ export function ContactForm({ variant = 'default' }: ContactFormProps) {
             Follow Us
           </h4>
           <div className="flex gap-4">
-            {['Instagram', 'LinkedIn', 'YouTube', 'Twitter'].map((social) => (
+            {['Instagram', 'LinkedIn', ].map((social) => (
               <a
                 key={social}
-                href="#"
+                href="https://www.instagram.com/project_nirvanaindia/"
                 className="px-4 py-2 bg-gray-100 rounded-lg text-sm font-medium text-navy-900 hover:bg-[#FF6B35] hover:text-white transition-colors"
               >
                 {social}
