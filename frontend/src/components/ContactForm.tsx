@@ -205,6 +205,7 @@ export function ContactForm({ variant = 'default' }: ContactFormProps) {
     ))}
 </div>
 </div>
+      </div>
 
       {/* Form */}
       <div className="bg-gray-50 rounded-2xl p-8 lg:p-10">
