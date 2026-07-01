@@ -101,7 +101,7 @@ export function Footer({ onNavigate }: FooterProps) {
   <p className="mt-2 text-sm text-gray-500">
     Built with ẟ by{" "}
     <a
-      href="www.linkedin.com/in/parikshitsinh"
+      href="https://pariksh1t.netlify.app"
       target="_blank"
       rel="noopener noreferrer"
       className="text-[#FF6B35] hover:underline font-medium"
