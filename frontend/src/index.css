@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-[#f2f2f0] text-navy-900 antialiased;
+    font-feature-settings: "ss01", "ss02", "ss03";
+  }
+  ::selection {
+    @apply bg-[#FF6B35] text-white;
+  }
+}
+@layer components {
+  .heading-caveat {
+    @apply font-caveat font-semibold tracking-normal;
+  }
+  .heading-serif {
+    @apply font-serif font-normal;
+  }
+  .body-text {
+    @apply font-sans text-gray-700 leading-relaxed;
+  }
+  .container-wide {
+    @apply max-w-7xl mx-auto px-6 lg:px-12;
+  }
+  .section-padding {
+    @apply py-20 lg:py-32;
+  }
+  .fade-section {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out forwards;
+    animation-play-state: paused;
+  }
+  .fade-section.visible {
+    animation-play-state: running;
+  }
+  .gradient-line {
+    @apply h-px bg-gradient-to-r from-transparent via-[#FF6B35] to-transparent;
+  }
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .mask-fade-bottom {
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  }
+}
+.highlight-heading {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  padding: 0 12px;
+}
+
+.highlight-heading {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  padding: 0 10px;
+}
+
+.highlight-heading::before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  bottom: -5px;
+  height: 55%;
+  background: #ff6b35;
+  border-radius: 1px;
+  z-index: -1;
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marqueeLeft {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-left {
+  animation: marqueeLeft 10s linear infinite;
+}
