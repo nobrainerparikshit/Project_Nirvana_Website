@@ -177,24 +177,34 @@ export function ContactForm({ variant = 'default' }: ContactFormProps) {
           </div>
         </div>
 
-        {/* Social Links */}
-        <div className="mt-10">
-          <h4 className="font-sans text-sm font-semibold uppercase tracking-wider text-gray-500 mb-4">
-            Follow Us
-          </h4>
-          <div className="flex gap-4">
-            {['Instagram', 'LinkedIn', ].map((social) => (
-              <a
-                key={social}
-                href="https://www.instagram.com/project_nirvanaindia/"
-                className="px-4 py-2 bg-gray-100 rounded-lg text-sm font-medium text-navy-900 hover:bg-[#FF6B35] hover:text-white transition-colors"
-              >
-                {social}
-              </a>
-            ))}
-          </div>
-        </div>
-      </div>
+{/* Social Links */}
+<div className="mt-10">
+<h4 className="font-sans text-sm font-semibold uppercase tracking-wider text-gray-500 mb-4">
+    Follow Us
+</h4>
+<div className="flex gap-4">
+    {[
+      {
+        name: 'Instagram',
+        href: 'https://www.instagram.com/project_nirvanaindia/',
+      },
+      {
+        name: 'LinkedIn',
+        href: 'https://www.linkedin.com/company/the-project-nirvana/',
+      },
+    ].map((social) => (
+<a
+        key={social.name}
+        href={social.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-4 py-2 bg-gray-100 rounded-lg text-sm font-medium text-navy-900 hover:bg-[#FF6B35] hover:text-white transition-colors"
+      >
+        {social.name}
+</a>
+    ))}
+</div>
+</div>
 
       {/* Form */}
       <div className="bg-gray-50 rounded-2xl p-8 lg:p-10">
