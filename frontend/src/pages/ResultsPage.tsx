@@ -18,7 +18,7 @@ function ResultsHero() {
   return (
     <section className="pt-4 pb-0">
       <div className="container-wide text-center">
-        <h1 className="highlight-heading font-caveat text-6xl lg:text-8xl text-navy-900 mb-6">
+        <h1 className="highlight-heading font-serif text-6xl lg:text-8xl text-navy-900 mb-6">
           Results & Opportunities
         </h1>
 
@@ -60,7 +60,7 @@ function EarlyImpactSection() {
                 key={stat.label}
                 className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100"
               >
-                <div className="font-caveat text-4xl lg:text-5xl text-[#FF6B35] mb-3">
+                <div className="font-serif text-4xl lg:text-5xl text-[#FF6B35] mb-3">
                   {stat.value}
                 </div>
 
@@ -95,7 +95,7 @@ function CompetitionsSection() {
       <div className="container-wide">
 
         <div className="text-center mb-12">
-          <h2 className="highlight-heading font-caveat text-5xl lg:text-6xl text-navy-900 mb-6">
+          <h2 className="highlight-heading font-serif text-5xl lg:text-6xl text-navy-900 mb-6">
             Competitions & Innovation Challenges
           </h2>
 

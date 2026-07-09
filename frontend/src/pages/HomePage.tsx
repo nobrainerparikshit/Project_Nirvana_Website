@@ -31,7 +31,7 @@ function HeroSection({ onNavigate }: { onNavigate: (page: string) => void }) {
         }`}
       >
         <div className="max-w-5xl mx-auto">
-          <h1 className="font-caveat text-5xl sm:text-6xl lg:text-7xl xl:text-8xl text-navy-900 leading-tight mb-8 text-balance">
+          <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl xl:text-8xl text-navy-900 leading-tight mb-8 text-balance">
             Empowering Students to Think, Build, and Innovate
           </h1>
           <p className="font-serif text-2xl lg:text-2xl text-gray-600 max-w-3xl mx-auto mb-12 leading-relaxed">
@@ -92,7 +92,7 @@ function ImpactMetrics() {
               <div className="w-12 h-12 mx-auto mb-4 rounded-lg bg-[#f2f2f0] flex items-center justify-center text-[#FF6B35] group-hover:bg-[#FF6B35] group-hover:text-white transition-colors">
                 <metric.icon size={24} />
               </div>
-              <div className="font-caveat text-4xl lg:text-5xl text-navy-900 mb-2">
+              <div className="font-serif text-4xl lg:text-5xl text-navy-900 mb-2">
                 {metric.value}
               </div>
               <div className="font-serif text-sm text-gray-500">{metric.label}</div>
@@ -115,7 +115,7 @@ function MissionSection() {
       >
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="font-caveat text-4xl lg:text-5xl text-navy-900 mb-4">
+            <h2 className="font-serif text-4xl lg:text-5xl text-navy-900 mb-4">
               Our Mission
             </h2>
             <div className="gradient-line max-w-xs mx-auto" />
@@ -167,7 +167,7 @@ function WhatWeTeachSection() {
         }`}
       >
         <div className="text-center mb-16">
-          <h2 className="font-caveat text-4xl lg:text-5xl text-navy-900 mb-4">
+          <h2 className="font-serif text-4xl lg:text-5xl text-navy-900 mb-4">
             What We Teach
           </h2>
           <p className="font-serif text-lg text-gray-600 max-w-2xl mx-auto">
@@ -240,7 +240,7 @@ function HowWeTeachSection() {
         }`}
       >
         <div className="text-center mb-16">
-          <h2 className="font-caveat text-4xl lg:text-5xl text-navy-900 mb-4">
+          <h2 className="font-serif text-4xl lg:text-5xl text-navy-900 mb-4">
             How We Teach
           </h2>
           <p className="font-serif text-lg text-gray-600 max-w-2xl mx-auto">
@@ -326,7 +326,7 @@ function WhyWeExistSection() {
         }`}
       >
         <div className="text-center mb-16">
-          <h2 className="font-caveat text-4xl lg:text-5xl mb-4">
+          <h2 className="font-serif text-4xl lg:text-5xl mb-4">
             Why We Exist
           </h2>
           <p className="font-serif text-lg text-gray-400 max-w-2xl mx-auto">
@@ -346,7 +346,7 @@ function WhyWeExistSection() {
               }}
             >
               <div className="mb-4">
-                <span className="font-caveat text-4xl lg:text-5xl text-[#FF6B35]">
+                <span className="font-serif text-4xl lg:text-5xl text-[#FF6B35]">
                   {problem.stat}
                 </span>
                 <p className="text-sm text-gray-500 mt-1">{problem.statLabel}</p>
@@ -391,7 +391,7 @@ function PartnersSection() {
     <section className="section-padding bg-gray-50 overflow-hidden">
       <div className="container-wide">
         <div className="text-center mb-16">
-          <h2 className="font-caveat text-4xl lg:text-5xl text-navy-900 mb-4">
+          <h2 className="font-serif text-4xl lg:text-5xl text-navy-900 mb-4">
             Our Partners and Ecosystem
           </h2>
           <p className="font-serif text-lg text-gray-600 max-w-2xl mx-auto">
@@ -461,7 +461,7 @@ function VisionSection() {
         }`}
       >
         <div className="text-center mb-16">
-          <h2 className="font-caveat text-5xl lg:text-7xl text-navy-900 mb-6">
+          <h2 className="font-serif text-5xl lg:text-7xl text-navy-900 mb-6">
             Our Vision
           </h2>
           <p className="font-serif text-lg text-gray-600 max-w-2xl mx-auto">
@@ -525,7 +525,7 @@ function ContactSection({ onNavigate }: { onNavigate: (page: string) => void }) 
         }`}
       >
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-caveat text-4xl lg:text-5xl text-navy-900 mb-4">
+          <h2 className="font-serif text-4xl lg:text-5xl text-navy-900 mb-4">
             Ready to Transform Education?
           </h2>
           <p className="font-serif text-lg text-gray-600 mb-8">

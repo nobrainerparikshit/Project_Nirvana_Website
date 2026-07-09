@@ -17,7 +17,7 @@ export function Footer({ onNavigate }: FooterProps) {
                className="h-16 w-auto"
              />
              <div>
-            <h3 className="font-caveat text-3xl text-white">
+            <h3 className="font-serif text-3xl text-white">
               Project Nirvana </h3>
               </div>
             </div>

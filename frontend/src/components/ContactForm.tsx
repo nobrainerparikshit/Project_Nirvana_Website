@@ -64,7 +64,7 @@ export function ContactForm({ variant = 'default' }: ContactFormProps) {
   if (variant === 'compact') {
     return (
       <div className="bg-gray-50 rounded-2xl p-8 lg:p-10">
-        <h3 className="font-caveat text-3xl text-navy-900 mb-6">Get in Touch</h3>
+        <h3 className="font-serif text-3xl text-navy-900 mb-6">Get in Touch</h3>
 
         <div className="flex flex-col gap-4 mb-8">
           <a
@@ -72,14 +72,14 @@ export function ContactForm({ variant = 'default' }: ContactFormProps) {
             className="flex items-center gap-3 text-navy-700 hover:text-[#FF6B35] transition-colors"
           >
             <Mail size={18} />
-            <span className="font-serif">projectnirvanaindia@gmail.com</span>
+            <span className="font-display">projectnirvanaindia@gmail.com</span>
           </a>
           <a
             href="https://wa.me/9185111010269"
             className="flex items-center gap-3 text-navy-700 hover:text-[#FF6B35] transition-colors"
           >
             <Phone size={18} />
-            <span className="font-serif">+91 8511010269</span>
+            <span className="font-display">+91 8511010269</span>
           </a>
         </div>
 
@@ -91,7 +91,7 @@ export function ContactForm({ variant = 'default' }: ContactFormProps) {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 bg-[#f2f2f0] border border-gray-200 rounded-lg focus:outline-none focus:border-[#FF6B35] font-serif transition-colors"
+            className="w-full px-4 py-3 bg-[#f2f2f0] border border-gray-200 rounded-lg focus:outline-none focus:border-[#FF6B35] font-display transition-colors"
           />
           <input
             type="email"
@@ -100,7 +100,7 @@ export function ContactForm({ variant = 'default' }: ContactFormProps) {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 bg-[#f2f2f0] border border-gray-200 rounded-lg focus:outline-none focus:border-[#FF6B35] font-serif transition-colors"
+            className="w-full px-4 py-3 bg-[#f2f2f0] border border-gray-200 rounded-lg focus:outline-none focus:border-[#FF6B35] font-display transition-colors"
           />
           <textarea
             name="message"
@@ -109,7 +109,7 @@ export function ContactForm({ variant = 'default' }: ContactFormProps) {
             onChange={handleChange}
             required
             rows={4}
-            className="w-full px-4 py-3 bg-[#f2f2f0] border border-gray-200 rounded-lg focus:outline-none focus:border-[#FF6B35] font-serif transition-colors resize-none"
+            className="w-full px-4 py-3 bg-[#f2f2f0] border border-gray-200 rounded-lg focus:outline-none focus:border-[#FF6B35] font-display transition-colors resize-none"
           />
           <button
             type="submit"
@@ -136,7 +136,7 @@ export function ContactForm({ variant = 'default' }: ContactFormProps) {
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
       {/* Contact Info */}
       <div>
-        <h2 className="font-caveat text-4xl lg:text-5xl text-navy-900 mb-4">
+        <h2 className="font-serif text-4xl lg:text-5xl text-navy-900 mb-4">
           Let's Connect
         </h2>
         <p className="font-serif text-lg text-gray-600 mb-8 leading-relaxed">

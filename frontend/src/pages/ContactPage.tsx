@@ -12,7 +12,7 @@ export function ContactPage() {
           }`}
         >
           <div className="max-w-5xl mx-auto">
-            <h1 className="font-caveat text-5xl lg:text-6xl xl:text-7xl text-navy-900 leading-tight mb-4">
+            <h1 className="font-serif text-5xl lg:text-6xl xl:text-7xl text-navy-900 leading-tight mb-4">
               Contact Us
             </h1>
             <p className="font-serif text-xl lg:text-2xl text-gray-600 mb-12">

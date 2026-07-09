@@ -26,7 +26,7 @@ function JoinHero() {
         }`}
       >
         <div className="max-w-4xl">
-          <h1 className="font-caveat text-5xl lg:text-6xl xl:text-7xl text-navy-900 leading-tight mb-6">
+          <h1 className="font-serif text-5xl lg:text-6xl xl:text-7xl text-navy-900 leading-tight mb-6">
             Join India's Next Generation of Innovators
           </h1>
           <p className="font-serif text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-2xl">
@@ -58,7 +58,7 @@ function BenefitsSection() {
         }`}
       >
         <div className="text-center mb-16">
-          <h2 className="font-caveat text-4xl lg:text-5xl text-navy-900 mb-4">
+          <h2 className="font-serif text-4xl lg:text-5xl text-navy-900 mb-4">
             What You'll Experience
           </h2>
           <p className="font-serif text-lg text-gray-600 max-w-2xl mx-auto">
@@ -125,13 +125,13 @@ function WhatYouGetSection() {
           <div className="aspect-[4/3] bg-gray-100 rounded-2xl overflow-hidden order-2 lg:order-1">
             <div className="w-full h-full flex items-center justify-center text-gray-400">
               <div className="text-center p-8">
-                <p className="font-serif">Students in workshop</p>
+                <p className="font-display">Students in workshop</p>
               </div>
             </div>
           </div>
           {/* Content */}
           <div className="order-1 lg:order-2">
-            <h2 className="font-caveat text-4xl lg:text-5xl text-navy-900 mb-4">
+            <h2 className="font-serif text-4xl lg:text-5xl text-navy-900 mb-4">
               Why Join Nirvana?
             </h2>
             <p className="font-serif text-lg text-gray-600 mb-8">
@@ -150,7 +150,7 @@ function WhatYouGetSection() {
                   }}
                 >
                   <div className="w-8 h-8 rounded-lg bg-[#f2f2f0] flex items-center justify-center text-[#FF6B35] flex-shrink-0 mt-1">
-                    <span className="font-caveat text-lg">{index + 1}</span>
+                    <span className="font-serif text-lg">{index + 1}</span>
                   </div>
                   <div>
                     <h3 className="font-serif text-lg text-navy-900 font-medium mb-1">
@@ -218,7 +218,7 @@ const institutions = [
         }`}
       >
         <div className="text-center mb-12">
-          <h2 className="highlight-heading font-caveat text-4xl lg:text-6xl text-navy-900 mb-6">
+          <h2 className="highlight-heading font-serif text-4xl lg:text-6xl text-navy-900 mb-6">
             Learn From Mentors Connected To
           </h2>
 
@@ -267,7 +267,7 @@ function ApplyCTA({ onNavigate }: { onNavigate: (page: string) => void }) {
         }`}
       >
         <div className="max-w-4xl mx-auto text-center bg-gray-50 rounded-3xl p-12 lg:p-16">
-          <h2 className="font-caveat text-4xl lg:text-5xl text-navy-900 mb-4">
+          <h2 className="font-serif text-4xl lg:text-5xl text-navy-900 mb-4">
             Want to join? Apply now and start your journey to becoming an internationally recognized innovator!
           </h2>
           <p className="font-serif text-lg text-gray-600 mb-6 max-w-xl mx-auto">
@@ -312,7 +312,7 @@ function ContactInfo() {
         }`}
       >
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="font-caveat text-3xl lg:text-4xl text-navy-900 mb-8">
+          <h2 className="font-serif text-3xl lg:text-4xl text-navy-900 mb-8">
             Questions? Get in Touch
           </h2>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -321,14 +321,14 @@ function ContactInfo() {
               className="flex items-center justify-center gap-3 px-6 py-4 bg-[#f2f2f0] rounded-xl border border-gray-100 hover:border-[#FF6B35] hover:shadow-md transition-all text-navy-900"
             >
               <Mail size={20} className="text-[#FF6B35]" />
-              <span className="font-serif">projectnirvanaindia@gmail.com</span>
+              <span className="font-display">projectnirvanaindia@gmail.com</span>
             </a>
             <a
               href="https://wa.me/9185111010269"
               className="flex items-center justify-center gap-3 px-6 py-4 bg-[#f2f2f0] rounded-xl border border-gray-100 hover:border-[#FF6B35] hover:shadow-md transition-all text-navy-900"
             >
               <Phone size={20} className="text-[#FF6B35]" />
-              <span className="font-serif">+91 8511010269</span>
+              <span className="font-display">+91 8511010269</span>
             </a>
           </div>
         </div>

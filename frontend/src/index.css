@@ -14,12 +14,10 @@
   }
 }
 @layer components {
-  .heading-caveat {
-    @apply font-caveat font-semibold tracking-normal;
-  }
+  .heading-primary {
+    @apply font-serif font-semibold tracking-normal;}
   .heading-serif {
-    @apply font-serif font-normal;
-  }
+    @apply font-serif font-normal;}
   .body-text {
     @apply font-sans text-gray-700 leading-relaxed;
   }
@@ -116,4 +114,17 @@
 
 .animate-marquee-left {
   animation: marqueeLeft 10s linear infinite;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cormorant Garamond", serif;
 }

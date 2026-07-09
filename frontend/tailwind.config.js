@@ -29,7 +29,6 @@ export default {
       fontFamily: {
         caveat: ['Caveat', 'cursive'],
         serif: ['Instrument Serif', 'serif'],
-        sans: ['Inter', 'system-ui', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-out forwards',

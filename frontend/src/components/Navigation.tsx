@@ -48,7 +48,7 @@ export function Navigation({ currentPage, onNavigate }: NavigationProps) {
     className="w-12 h-12 object-contain"
   />
   <div className="hidden sm:flex flex-col">
-    <span className="font-caveat text-2xl text-navy-900">
+    <span className="font-serif text-2xl text-navy-900">
       Project Nirvana
     </span>
   </div>

@@ -24,7 +24,7 @@ function AboutHero() {
         }`}
       >
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="font-caveat text-5xl lg:text-6xl xl:text-7xl text-navy-900 leading-tight mb-8">
+          <h1 className="font-serif text-5xl lg:text-6xl xl:text-7xl text-navy-900 leading-tight mb-8">
             We Are Teenagers Building The Future Of Education
           </h1>
           <p className="font-serif text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
@@ -115,7 +115,7 @@ function AboutValues() {
         }`}
       >
         <div className="text-center mb-16">
-          <h2 className="font-caveat text-4xl lg:text-5xl text-navy-900 mb-4">
+          <h2 className="font-serif text-4xl lg:text-5xl text-navy-900 mb-4">
             What We Stand For
           </h2>
           <p className="font-serif text-lg text-gray-600 max-w-2xl mx-auto">
@@ -134,7 +134,7 @@ function AboutValues() {
               }}
             >
               <div className="w-12 h-12 rounded-lg bg-[#f2f2f0] text-[#FF6B35] flex items-center justify-center mb-6 group-hover:bg-[#FF6B35] group-hover:text-white transition-colors">
-                <span className="font-caveat text-2xl">{index + 1}</span>
+                <span className="font-serif text-2xl">{index + 1}</span>
               </div>
               <h3 className="font-serif text-xl lg:text-2xl text-navy-900 font-medium mb-3">
                 {value.title}
@@ -182,7 +182,7 @@ function AboutImpact() {
         }`}
       >
         <div className="text-center mb-16">
-          <h2 className="font-caveat text-4xl lg:text-5xl mb-4">
+          <h2 className="font-serif text-4xl lg:text-5xl mb-4">
             Our Impact So Far
           </h2>
           <p className="font-serif text-lg text-gray-400 max-w-2xl mx-auto">
@@ -200,7 +200,7 @@ function AboutImpact() {
                 transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
               }}
             >
-              <div className="font-caveat text-5xl lg:text-6xl text-[#FF6B35] mb-2">
+              <div className="font-serif text-5xl lg:text-6xl text-[#FF6B35] mb-2">
                 {impact.stat}
               </div>
               <div className="font-serif font-medium mb-2">{impact.label}</div>
@@ -225,7 +225,7 @@ function AboutCTA({ onNavigate }: { onNavigate: (page: string) => void }) {
         }`}
       >
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-caveat text-4xl lg:text-5xl text-navy-900 mb-4">
+          <h2 className="font-serif text-4xl lg:text-5xl text-navy-900 mb-4">
             Join Our Mission
           </h2>
           <p className="font-serif text-lg text-gray-600 mb-8">

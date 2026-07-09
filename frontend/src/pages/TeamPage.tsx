@@ -122,7 +122,7 @@ function TeamHero() {
         }`}
       >
         <div className="max-w-3xl">
-          <h1 className="font-caveat text-5xl lg:text-6xl xl:text-7xl text-navy-900 leading-tight mb-6">
+          <h1 className="font-serif text-5xl lg:text-6xl xl:text-7xl text-navy-900 leading-tight mb-6">
             Our Team
           </h1>
           <p className="font-serif text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-2xl">
@@ -214,7 +214,7 @@ function MoreTeamSection() {
         }`}
       >
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-caveat text-3xl lg:text-4xl text-navy-900 mb-4">
+          <h2 className="font-serif text-3xl lg:text-4xl text-navy-900 mb-4">
             And Many More
           </h2>
           <p className="font-serif text-xl text-gray-600 leading-relaxed">
@@ -241,7 +241,7 @@ function JoinTeamCTA() {
         }`}
       >
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-caveat text-4xl lg:text-5xl text-navy-900 mb-4">
+          <h2 className="font-serif text-4xl lg:text-5xl text-navy-900 mb-4">
             Join Our Team
           </h2>
           <p className="font-serif text-lg text-gray-600 mb-8">
