@@ -8,6 +8,8 @@ import { AboutPage } from './pages/AboutPage';
 import { TeamPage } from './pages/TeamPage';
 import { JoinPage } from './pages/JoinPage';
 import { ContactPage } from './pages/ContactPage';
+import { CoursesPage } from './pages/CoursesPage'
+
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
   const handleNavigate = (page: string) => {
@@ -36,6 +38,9 @@ function App() {
         return <ContactPage />;
       default:
         return <HomePage onNavigate={handleNavigate} />;
+      case 'courses':
+        return <CoursesPage onNavigate={handleNavigate} />;
+
     }
   };
   return (

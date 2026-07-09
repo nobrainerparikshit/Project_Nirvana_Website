@@ -11,6 +11,7 @@ const navLinks = [
   { id: 'results', label: 'Results' },
   { id: 'join', label: 'Join Nirvana' },
   { id: 'contact', label: 'Contact' },
+  { id: 'courses', label: 'Courses' },
 ];
 export function Navigation({ currentPage, onNavigate }: NavigationProps) {
   const [isScrolled, setIsScrolled] = useState(false);
