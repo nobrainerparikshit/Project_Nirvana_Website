@@ -277,7 +277,7 @@ function ApplyCTA({ onNavigate }: { onNavigate: (page: string) => void }) {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/9185111010269"
+              href="https://forms.gle/xBwQNfAEKPdsCwWn9"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#FF6B35] text-white text-lg font-medium rounded-xl hover:bg-[#E55A2B] transition-colors"
@@ -293,7 +293,7 @@ function ApplyCTA({ onNavigate }: { onNavigate: (page: string) => void }) {
             </button>
           </div>
           <p className="font-serif text-sm text-gray-500 mt-6">
-            Open to students in grades 6 to 10
+              Open to students who are eager to learn, innovate, and make a difference. We welcome students from all backgrounds.
           </p>
         </div>
       </div>
