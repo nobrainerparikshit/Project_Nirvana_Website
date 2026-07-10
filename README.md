@@ -290,16 +290,6 @@ Together, we can build the next generation of scientists, engineers, researchers
 
 ---
 
-## Founder
-
-**Parikshitsinh Jadeja**
-
-Student Researcher | Robotics Engineer | STEM Educator
-
-Founder, Project Nirvana
-
----
-
 ## License
 
 This project will progressively open-source its curriculum and educational resources under a Creative Commons license to maximize accessibility and impact.
