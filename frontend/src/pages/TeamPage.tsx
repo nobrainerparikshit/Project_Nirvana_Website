@@ -24,7 +24,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     name: 'Parikshitsinh Jadeja',
-    role: 'Robotics Instructor & Solo Website Dev.',
+    role: 'Technical Head & Researcher | Robotics Mentor',
     image: '/images/team/parikshit.jpg',
     achievements: [
       'Masason Foundation Scholar (10th Generation)',
@@ -36,7 +36,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     name: 'Shubh Menon',
-    role: 'Head of Marketing',
+    role: 'Mathematics Mentor',
     image: '/images/team/shubh.jpg',
     achievements: [
       '8x National Hackathon Participant',
@@ -80,7 +80,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     name: 'Sidhant Vora',
-    role: 'Accounts team + Hardware Mentor',
+    role: 'Accounts & Finance Team | Hardware Mentor',
     image: '/images/team/sidhant.jpg',
     achievements: [
       'Co-owner of Project Numa',
@@ -93,6 +93,38 @@ const teamMembers: TeamMember[] = [
     name: 'Jash Parekh',
     role: ' Social Media and Outreach',
     image: '/images/team/jash.jpg',
+    achievements: [
+      'INTACH participant and winner',
+      'Educational participation at Orlando science centre',
+      'Gold Medal in International History Olympiad',
+      'Recognised by green mentors',
+    ],
+  },
+  {
+    name: 'Dyuman Pradhan',
+    role: ' Leadership & Public Speaking Mentor',
+    image: '/images/team/dyuman.jpeg',
+    achievements: [
+      'National level debator and MUN enthusiast',
+      'International speaking recognition with accolades in trinity passing distinction',
+      'Committed to breaking down paywall barriers',
+    ],
+  },
+  {
+    name: 'Samar Maini',
+    role: ' STEM Mentor',
+    image: '/images/team/samar.jpeg',
+    achievements: [
+      'Minecraft water conservation challenge winner',
+      'CBSE cluster semi finalists',
+      'CBSE national topper in AI',
+      'WRO, JMT & other STEM competition enthusiast',
+    ],
+  },
+  {
+    name: 'Riddhi Shah',
+    role: 'STEM Mentor',
+    image: '/images/team/riddhi.jpg',
     achievements: [
       'INTACH participant and winner',
       'Educational participation at Orlando science centre',
