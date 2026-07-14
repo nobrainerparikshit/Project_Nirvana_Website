@@ -124,12 +124,12 @@ const teamMembers: TeamMember[] = [
   {
     name: 'Riddhi Shah',
     role: 'STEM Mentor',
-    image: '/images/team/riddhi.jpg',
+    image: '/images/team/riddhi.jpeg',
     achievements: [
-      'INTACH participant and winner',
-      'Educational participation at Orlando science centre',
-      'Gold Medal in International History Olympiad',
-      'Recognised by green mentors',
+      'Won NSIC 2023 (organised by AIM, NITI Aayog, ISRO and Navars Edutech)',
+      'Won Nanubhai Award',
+      'Awarded Certificate from the University of Edinburgh in Philosophy',
+      'Worked with international educational institutions',
     ],
   },
 ];
